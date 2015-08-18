@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>awesome-python3-webapp/app.py at day-07 · michaelliao/awesome-python3-webapp</title>
+    <title>awesome-python3-webapp/coroweb.py at day-07 · michaelliao/awesome-python3-webapp</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -24,7 +24,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6ZTAyNjViMDk0MTIxN2QwNDIyNTdkNTE1M2ZmOGYyNGE6ZTFkZmEwMjM0ZjRjMDBhOTFkNjFkMzdiN2JiZTA5YmJiOGZkZWFhZjVmZTg0MDEzZGY1MjFmYmRiNmM4M2IxNg==--0db7251a86f8eae154098b167ea27071275bbb9e">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6ZTAyNjViMDk0MTIxN2QwNDIyNTdkNTE1M2ZmOGYyNGE6MzZkOTBjNjU1NmJmNDYxMTQ3NjQzZTkyNWM0YjFjYjhmOTcyOGZiZjNhNTM2OGE2NzdiYzE2OWJkOTBhYmNjMA==--1ad64e7edb67649ac494b9e1d44bd9e5bee4031a">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -34,7 +34,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E72315F:3D4C:B482B5C:55D3658A" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E72315F:3D43:4520337:55D36596" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -48,7 +48,7 @@
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
     <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
-<meta content="KXAxIBbLH7x5/Xt3BgFg//1TIDVEAAh3E//PFxwEtKNwfhauYGTSGkBEu6a2oLVqhBrT7at822bjC8I2AwZBgw==" name="csrf-token" />
+<meta content="zuipBQK/tXoo8okMunfKaCLxfHwuL4Yl6bPSNrb2MyJ7DfM9NJJsbOdjmcBvsApNpSEn3tLSfOZ3o+5ASprH0w==" name="csrf-token" />
     
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-ce6f4be3ac86c80d26386e89dab12306e2663d0673dbcecb4cee57b1dc3585cb.css" media="all" rel="stylesheet" />
@@ -198,7 +198,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+BVhvb7fT36L+JJ2/GFyD3Etc38Y55uNPcKDOTHqunH0TOG5FlyQ2KbolIzcJhpmsyjtK15tuRWFriTm1C2mLQ==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dkTcoS85yIJAITsspIHNVthGThL3JiKoVlYBUMH4fPygA4oHUF/DxEtirh+xLlCz9dy9A2FKf3tiMp8zWTBFjg==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -230,7 +230,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2CfUXEz/bRyZqqjMKs6egcAVILYn/bwWvsuK/YBwnvbwLBLRJfyozuV/X4qDA8Gu6KoX8A9/GnIygijnzPGefg==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="r1MZvezUTu6TOMqxWrKYiy7wLgaMedSoH+L5KnyM6xOuS3ntOJ8bCm8ssn7yjnha/fPqUqUQIXNMgwzXgJ0FFA==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/michaelliao/awesome-python3-webapp/subscription"
@@ -305,7 +305,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HfhswxICxIpHV8YNyvmul7yrQlvZ1ciV4fT8RmbxsVcnaUvXZV/HcHzIGyyY3mKdji73ZFqTa6pWtiHxbS4E7w==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="I+5VYaghSPO0msQz8sKp20BHj5vyaob62Cx/sY+OZJ7by38wsxLq71MDwJV6W9D42Ar0KKvITMZBDqOyVYe6Kg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar michaelliao/awesome-python3-webapp"
@@ -317,7 +317,7 @@
           23
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QYc5K2i0NFvT8RxLMJCo0wNRceWBpVHM79MpGOZXBrRxwdE9V3K4dQPAulxkqK24iba86BsBvhDVseRQK9Z4Mg==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e5IfwGdkgVIZhunqrfL5TJaynrpHIFIGsl8fpUGe8ii7IcSbzud3ZgFOoyQ1RMXa+tW3e8IykOt5U366/GOB+A==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star michaelliao/awesome-python3-webapp"
@@ -333,7 +333,7 @@
   </li>
 
         <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Cf91hDX2TPreVmQeq/EX26gUvJGGng5IgBe757mrSGH4SC/ShqCal5VLwmX940LmOxNNv1uAKv1U1ZjtZuMmuw==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sbtKd/0NhqZAUkBfULmBMPA+yuaYmPsJRBptfw8rKZzvD1ObdtWM2uTxPLF6f54pL9vWUzw2u7Z+B6/6zp5rBw==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -462,7 +462,7 @@
 
 
   <div class="clone-options">You can clone with
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+2ADIL7TCV2qqa70BSPoDaL0r3Myi1LtVCJwAmy4fNnPez3Hqz5wOjt92fSviS2zfm6OV2lv5SwpbM2a7MvqeA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9mmmgh6slCCPSHs6Aoqetavj77TA491E84Kdgl5Hv8T2orgJKdRPrXrr+JttsWdZ1vRDGQOGWy3nJTDmjFwzJw==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nNsDPdnG+A3goSH8jIel1sxqhiEy0V8ek6u5Mpo2bqOdL1uEKJbqI8oGrfAr6k9ESNnj7a6HkRwFSlOusOPKQQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Xmb5tG0cRJWXU+DyQ2LQqws4QVegvVS1zXra4VbITxbF/lHwh35/PbvHaJWBevpHk6YcAm6SLaFv6pxLsBzIWg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="iP2e6ihQmuJEAQBi3zFQ/hbpkDU9nm1/KHp1pXPgCuAAA98opalHVR92g3sQJcWxBWdKpdh5QqvE8BYeM8CSxg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e8rshmjJBsdzaguhpONOuQiV++fcSiWGc4znCfRDr1zWUWta31yFoeASZKNMV/ge7AKsxy8fUK0YHiEgG1tLsw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
     <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
       <span class="octicon octicon-question"></span>
     </a>
@@ -486,9 +486,9 @@
 
             
 
-<a href="/michaelliao/awesome-python3-webapp/blob/e6a66c155056aaf952d4d20ca3e1003dfdc4b875/www/app.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/michaelliao/awesome-python3-webapp/blob/e6a66c155056aaf952d4d20ca3e1003dfdc4b875/www/coroweb.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:12c455438260aed34201aee6ff00753e -->
+<!-- blob contrib key: blob_contributors:v21:71064eff4f89f39a309f5a29833d9649 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -531,7 +531,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-01/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-01/www/coroweb.py"
                data-name="day-01"
                data-skip-pjax="true"
                rel="nofollow">
@@ -541,7 +541,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-02/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-02/www/coroweb.py"
                data-name="day-02"
                data-skip-pjax="true"
                rel="nofollow">
@@ -551,7 +551,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-03/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-03/www/coroweb.py"
                data-name="day-03"
                data-skip-pjax="true"
                rel="nofollow">
@@ -561,7 +561,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-04/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-04/www/coroweb.py"
                data-name="day-04"
                data-skip-pjax="true"
                rel="nofollow">
@@ -571,7 +571,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-05/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-05/www/coroweb.py"
                data-name="day-05"
                data-skip-pjax="true"
                rel="nofollow">
@@ -581,7 +581,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-06/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-06/www/coroweb.py"
                data-name="day-06"
                data-skip-pjax="true"
                rel="nofollow">
@@ -591,7 +591,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/michaelliao/awesome-python3-webapp/blob/day-07/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-07/www/coroweb.py"
                data-name="day-07"
                data-skip-pjax="true"
                rel="nofollow">
@@ -601,7 +601,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-08/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-08/www/coroweb.py"
                data-name="day-08"
                data-skip-pjax="true"
                rel="nofollow">
@@ -611,7 +611,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-09/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-09/www/coroweb.py"
                data-name="day-09"
                data-skip-pjax="true"
                rel="nofollow">
@@ -621,7 +621,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-10/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-10/www/coroweb.py"
                data-name="day-10"
                data-skip-pjax="true"
                rel="nofollow">
@@ -631,7 +631,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-11/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-11/www/coroweb.py"
                data-name="day-11"
                data-skip-pjax="true"
                rel="nofollow">
@@ -641,7 +641,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-12/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-12/www/coroweb.py"
                data-name="day-12"
                data-skip-pjax="true"
                rel="nofollow">
@@ -651,7 +651,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-13/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-13/www/coroweb.py"
                data-name="day-13"
                data-skip-pjax="true"
                rel="nofollow">
@@ -661,7 +661,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-14/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-14/www/coroweb.py"
                data-name="day-14"
                data-skip-pjax="true"
                rel="nofollow">
@@ -671,7 +671,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-15/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-15/www/coroweb.py"
                data-name="day-15"
                data-skip-pjax="true"
                rel="nofollow">
@@ -681,7 +681,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-16/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-16/www/coroweb.py"
                data-name="day-16"
                data-skip-pjax="true"
                rel="nofollow">
@@ -691,7 +691,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/dev/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/dev/www/coroweb.py"
                data-name="dev"
                data-skip-pjax="true"
                rel="nofollow">
@@ -701,7 +701,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/master/www/app.py"
+               href="/michaelliao/awesome-python3-webapp/blob/master/www/coroweb.py"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -740,7 +740,7 @@
     </div>
 
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07/www" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">app.py</strong>
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07/www" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">coroweb.py</strong>
     </div>
   </div>
 
@@ -749,9 +749,9 @@
     <div class="file-history-tease-header">
         <img alt="@michaelliao" class="avatar" height="24" src="https://avatars3.githubusercontent.com/u/470058?v=3&amp;s=48" width="24" />
         <span class="author"><a href="/michaelliao" rel="author">michaelliao</a></span>
-        <time datetime="2015-05-26T14:09:58Z" is="relative-time">May 26, 2015</time>
+        <time datetime="2015-05-20T22:42:12Z" is="relative-time">May 21, 2015</time>
         <div class="commit-title">
-            <a href="/michaelliao/awesome-python3-webapp/commit/3096cdbe80834c8dd4c286889eda8fe4bb23c79f" class="message" data-pjax="true" title="remove __user__">remove __user__</a>
+            <a href="/michaelliao/awesome-python3-webapp/commit/61ae41e583655b01c4ae549a2457121b6c0f1b21" class="message" data-pjax="true" title="add initial resource">add initial resource</a>
         </div>
     </div>
 
@@ -780,9 +780,9 @@
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/michaelliao/awesome-python3-webapp/raw/day-07/www/app.py" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/michaelliao/awesome-python3-webapp/blame/day-07/www/app.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/michaelliao/awesome-python3-webapp/commits/day-07/www/app.py" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/michaelliao/awesome-python3-webapp/raw/day-07/www/coroweb.py" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/michaelliao/awesome-python3-webapp/blame/day-07/www/coroweb.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/michaelliao/awesome-python3-webapp/commits/day-07/www/coroweb.py" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
@@ -792,23 +792,21 @@
             <span class="octicon octicon-desktop-download"></span>
         </a>
 
-            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-07/www/app.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XqrN/P4fUx37I6JkCQysTWpM4BNI9zulohoBdGb+1LWZhBjyMODCXGxPBrG53tajMkZcbFzep4qRy2Zhgc9cPQ==" /></div>
+            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-07/www/coroweb.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="F0n7UvYHzB97KfsHlZxJ6LtC5MGEG+0ZMFS/ebi3EKA8CTstad4F0oAPQh2WcgN9pJYz4QIE7lmr8LcYsf3Ddw==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-07/www/app.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mNp6Uz/XVcYIZi6l+C0gT4x/M6TVYfArVJnxTEjKZP/yfJmh9NKXxPuvdyjTUSBO3CTPKeo6zrysbZYEgNgj4Q==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-07/www/coroweb.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="s8vEQ49IwVaSUAmJxddf7yTFt6Qm/qe4myR684KwIWeD+mcV8q6ZW9+QCJU55MQ2GGd3hQSB3SdP2ezy+kEQQQ==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-        <span class="file-mode" title="File mode">executable file</span>
+        175 lines (156 sloc)
         <span class="file-info-divider"></span>
-        136 lines (121 sloc)
-        <span class="file-info-divider"></span>
-      4.79 kB
+      6.291 kB
     </div>
   </div>
   
@@ -839,15 +837,16 @@
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> asyncio, os, inspect, logging, functools</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-s">async web application.</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> urllib <span class="pl-k">import</span> parse</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
@@ -856,7 +855,7 @@
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> logging; logging.basicConfig(<span class="pl-smi">level</span><span class="pl-k">=</span>logging.INFO)</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> aiohttp <span class="pl-k">import</span> web</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
@@ -865,509 +864,668 @@
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> asyncio, os, json, time</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> apis <span class="pl-k">import</span> APIError</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> datetime <span class="pl-k">import</span> datetime</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">get</span>(<span class="pl-smi">path</span>):</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> aiohttp <span class="pl-k">import</span> web</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> jinja2 <span class="pl-k">import</span> Environment, FileSystemLoader</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    Define decorator @get(&#39;/path&#39;)</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    <span class="pl-pds">&#39;&#39;&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> config <span class="pl-k">import</span> configs</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">decorator</span>(<span class="pl-smi">func</span>):</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-en">@</span><span class="pl-en">functools.wraps</span>(func)</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> orm</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">def</span> <span class="pl-en">wrapper</span>(*<span class="pl-smi">args</span>, **<span class="pl-smi">kw</span>):</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> coroweb <span class="pl-k">import</span> add_routes, add_static</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> func(<span class="pl-k">*</span>args, <span class="pl-k">**</span>kw)</td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">        wrapper.__method__ <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>GET<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">init_jinja2</span>(<span class="pl-smi">app</span>, **<span class="pl-smi">kw</span>):</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        wrapper.__route__ <span class="pl-k">=</span> path</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">    logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>init jinja2...<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> wrapper</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">    options <span class="pl-k">=</span> <span class="pl-c1">dict</span>(</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> decorator</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">autoescape</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>autoescape<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">True</span>),</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">block_start_string</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>block_start_string<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>{%<span class="pl-pds">&#39;</span></span>),</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">post</span>(<span class="pl-smi">path</span>):</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">block_end_string</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>block_end_string<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>%}<span class="pl-pds">&#39;</span></span>),</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">variable_start_string</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>variable_start_string<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>{{<span class="pl-pds">&#39;</span></span>),</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    Define decorator @post(&#39;/path&#39;)</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">variable_end_string</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>variable_end_string<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>}}<span class="pl-pds">&#39;</span></span>),</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    <span class="pl-pds">&#39;&#39;&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">auto_reload</span> <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>auto_reload<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">True</span>)</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">decorator</span>(<span class="pl-smi">func</span>):</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">    )</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">        <span class="pl-en">@</span><span class="pl-en">functools.wraps</span>(func)</td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">    path <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>path<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">def</span> <span class="pl-en">wrapper</span>(*<span class="pl-smi">args</span>, **<span class="pl-smi">kw</span>):</td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> path <span class="pl-k">is</span> <span class="pl-c1">None</span>:</td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> func(<span class="pl-k">*</span>args, <span class="pl-k">**</span>kw)</td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">        path <span class="pl-k">=</span> os.path.join(os.path.dirname(os.path.abspath(<span class="pl-c1">__file__</span>)), <span class="pl-s"><span class="pl-pds">&#39;</span>templates<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">        wrapper.__method__ <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>POST<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">    logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>set jinja2 template path: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> path)</td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">        wrapper.__route__ <span class="pl-k">=</span> path</td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">    env <span class="pl-k">=</span> Environment(<span class="pl-smi">loader</span><span class="pl-k">=</span>FileSystemLoader(path), <span class="pl-k">**</span>options)</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> wrapper</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">    filters <span class="pl-k">=</span> kw.get(<span class="pl-s"><span class="pl-pds">&#39;</span>filters<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> decorator</td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> filters <span class="pl-k">is</span> <span class="pl-k">not</span> <span class="pl-c1">None</span>:</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> name, f <span class="pl-k">in</span> filters.items():</td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">get_required_kw_args</span>(<span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">            env.filters[name] <span class="pl-k">=</span> f</td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">    args <span class="pl-k">=</span> []</td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">    app[<span class="pl-s"><span class="pl-pds">&#39;</span>__templating__<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> env</td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">    params <span class="pl-k">=</span> inspect.signature(fn).parameters</td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> name, param <span class="pl-k">in</span> params.items():</td>
       </tr>
       <tr>
         <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> param.kind <span class="pl-k">==</span> inspect.Parameter.KEYWORD_ONLY <span class="pl-k">and</span> param.default <span class="pl-k">==</span> inspect.Parameter.empty:</td>
       </tr>
       <tr>
         <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">logger_factory</span>(<span class="pl-smi">app</span>, <span class="pl-smi">handler</span>):</td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">            args.append(name)</td>
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-c1">tuple</span>(args)</td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">logger</span>(<span class="pl-smi">request</span>):</td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">        logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>Request: <span class="pl-c1">%s</span> <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (request.method, request.path))</td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">get_named_kw_args</span>(<span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"># yield from asyncio.sleep(0.3)</span></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">    args <span class="pl-k">=</span> []</td>
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> (<span class="pl-k">yield</span> <span class="pl-k">from</span> handler(request))</td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">    params <span class="pl-k">=</span> inspect.signature(fn).parameters</td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> logger</td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> name, param <span class="pl-k">in</span> params.items():</td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> param.kind <span class="pl-k">==</span> inspect.Parameter.KEYWORD_ONLY:</td>
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">            args.append(name)</td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">data_factory</span>(<span class="pl-smi">app</span>, <span class="pl-smi">handler</span>):</td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-c1">tuple</span>(args)</td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">parse_data</span>(<span class="pl-smi">request</span>):</td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">has_named_kw_args</span>(<span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> request.method <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>POST<span class="pl-pds">&#39;</span></span>:</td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">    params <span class="pl-k">=</span> inspect.signature(fn).parameters</td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> request.content_type.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>):</td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> name, param <span class="pl-k">in</span> params.items():</td>
       </tr>
       <tr>
         <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">                request.__data__ <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> request.json()</td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> param.kind <span class="pl-k">==</span> inspect.Parameter.KEYWORD_ONLY:</td>
       </tr>
       <tr>
         <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">                logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>request json: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> <span class="pl-c1">str</span>(request.__data__))</td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-c1">True</span></td>
       </tr>
       <tr>
         <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">elif</span> request.content_type.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>application/x-www-form-urlencoded<span class="pl-pds">&#39;</span></span>):</td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">                request.__data__ <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> request.post()</td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">has_var_kw_arg</span>(<span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">                logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>request form: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> <span class="pl-c1">str</span>(request.__data__))</td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">    params <span class="pl-k">=</span> inspect.signature(fn).parameters</td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> (<span class="pl-k">yield</span> <span class="pl-k">from</span> handler(request))</td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> name, param <span class="pl-k">in</span> params.items():</td>
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> parse_data</td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> param.kind <span class="pl-k">==</span> inspect.Parameter.VAR_KEYWORD:</td>
       </tr>
       <tr>
         <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-c1">True</span></td>
       </tr>
       <tr>
         <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">response_factory</span>(<span class="pl-smi">app</span>, <span class="pl-smi">handler</span>):</td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">has_request_arg</span>(<span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">    sig <span class="pl-k">=</span> inspect.signature(fn)</td>
       </tr>
       <tr>
         <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">response</span>(<span class="pl-smi">request</span>):</td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">    params <span class="pl-k">=</span> sig.parameters</td>
       </tr>
       <tr>
         <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">        logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>Response handler...<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">    found <span class="pl-k">=</span> <span class="pl-c1">False</span></td>
       </tr>
       <tr>
         <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">        r <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> handler(request)</td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> name, param <span class="pl-k">in</span> params.items():</td>
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, web.StreamResponse):</td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> name <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>request<span class="pl-pds">&#39;</span></span>:</td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> r</td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">            found <span class="pl-k">=</span> <span class="pl-c1">True</span></td>
       </tr>
       <tr>
         <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, <span class="pl-c1">bytes</span>):</td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">continue</span></td>
       </tr>
       <tr>
         <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">            resp <span class="pl-k">=</span> web.Response(<span class="pl-smi">body</span><span class="pl-k">=</span>r)</td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> found <span class="pl-k">and</span> (param.kind <span class="pl-k">!=</span> inspect.Parameter.VAR_POSITIONAL <span class="pl-k">and</span> param.kind <span class="pl-k">!=</span> inspect.Parameter.KEYWORD_ONLY <span class="pl-k">and</span> param.kind <span class="pl-k">!=</span> inspect.Parameter.VAR_KEYWORD):</td>
       </tr>
       <tr>
         <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">            resp.content_type <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>application/octet-stream<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">raise</span> <span class="pl-c1">ValueError</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>request parameter must be the last named parameter in function: <span class="pl-c1">%s%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (fn.<span class="pl-c1">__name__</span>, <span class="pl-c1">str</span>(sig)))</td>
       </tr>
       <tr>
         <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> resp</td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> found</td>
       </tr>
       <tr>
         <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, <span class="pl-c1">str</span>):</td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> r.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>redirect:<span class="pl-pds">&#39;</span></span>):</td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">RequestHandler</span>(<span class="pl-e"><span class="pl-c1">object</span></span>):</td>
       </tr>
       <tr>
         <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> web.HTTPFound(r[<span class="pl-c1">9</span>:])</td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">            resp <span class="pl-k">=</span> web.Response(<span class="pl-smi">body</span><span class="pl-k">=</span>r.encode(<span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en"><span class="pl-c1">__init__</span></span>(<span class="pl-smi">self</span>, <span class="pl-smi">app</span>, <span class="pl-smi">fn</span>):</td>
       </tr>
       <tr>
         <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">            resp.content_type <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>text/html;charset=utf-8<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._app <span class="pl-k">=</span> app</td>
       </tr>
       <tr>
         <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> resp</td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._func <span class="pl-k">=</span> fn</td>
       </tr>
       <tr>
         <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, <span class="pl-c1">dict</span>):</td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._has_request_arg <span class="pl-k">=</span> has_request_arg(fn)</td>
       </tr>
       <tr>
         <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">            template <span class="pl-k">=</span> r.get(<span class="pl-s"><span class="pl-pds">&#39;</span>__template__<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._has_var_kw_arg <span class="pl-k">=</span> has_var_kw_arg(fn)</td>
       </tr>
       <tr>
         <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> template <span class="pl-k">is</span> <span class="pl-c1">None</span>:</td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._has_named_kw_args <span class="pl-k">=</span> has_named_kw_args(fn)</td>
       </tr>
       <tr>
         <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line">                resp <span class="pl-k">=</span> web.Response(<span class="pl-smi">body</span><span class="pl-k">=</span>json.dumps(r, <span class="pl-smi">ensure_ascii</span><span class="pl-k">=</span><span class="pl-c1">False</span>, <span class="pl-smi">default</span><span class="pl-k">=</span><span class="pl-k">lambda</span> <span class="pl-smi">o</span>: o.<span class="pl-c1">__dict__</span>).encode(<span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._named_kw_args <span class="pl-k">=</span> get_named_kw_args(fn)</td>
       </tr>
       <tr>
         <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code blob-code-inner js-file-line">                resp.content_type <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>application/json;charset=utf-8<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">        <span class="pl-v">self</span>._required_kw_args <span class="pl-k">=</span> get_required_kw_args(fn)</td>
       </tr>
       <tr>
         <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> resp</td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">else</span>:</td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">@asyncio.coroutine</span></td>
       </tr>
       <tr>
         <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">                resp <span class="pl-k">=</span> web.Response(<span class="pl-smi">body</span><span class="pl-k">=</span>app[<span class="pl-s"><span class="pl-pds">&#39;</span>__templating__<span class="pl-pds">&#39;</span></span>].get_template(template).render(<span class="pl-k">**</span>r).encode(<span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en"><span class="pl-c1">__call__</span></span>(<span class="pl-smi">self</span>, <span class="pl-smi">request</span>):</td>
       </tr>
       <tr>
         <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line">                resp.content_type <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>text/html;charset=utf-8<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">        kw <span class="pl-k">=</span> <span class="pl-c1">None</span></td>
       </tr>
       <tr>
         <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> resp</td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-v">self</span>._has_var_kw_arg <span class="pl-k">or</span> <span class="pl-v">self</span>._has_named_kw_args <span class="pl-k">or</span> <span class="pl-v">self</span>._required_kw_args:</td>
       </tr>
       <tr>
         <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, <span class="pl-c1">int</span>) <span class="pl-k">and</span> t <span class="pl-k">&gt;=</span> <span class="pl-c1">100</span> <span class="pl-k">and</span> t <span class="pl-k">&lt;</span> <span class="pl-c1">600</span>:</td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> request.method <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>POST<span class="pl-pds">&#39;</span></span>:</td>
       </tr>
       <tr>
         <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> web.Response(t)</td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> <span class="pl-k">not</span> request.content_type:</td>
       </tr>
       <tr>
         <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(r, <span class="pl-c1">tuple</span>) <span class="pl-k">and</span> <span class="pl-c1">len</span>(r) <span class="pl-k">==</span> <span class="pl-c1">2</span>:</td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">return</span> web.HTTPBadRequest(<span class="pl-s"><span class="pl-pds">&#39;</span>Missing Content-Type.<span class="pl-pds">&#39;</span></span>)</td>
       </tr>
       <tr>
         <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line">            t, m <span class="pl-k">=</span> r</td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">                ct <span class="pl-k">=</span> request.content_type.lower()</td>
       </tr>
       <tr>
         <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> <span class="pl-c1">isinstance</span>(t, <span class="pl-c1">int</span>) <span class="pl-k">and</span> t <span class="pl-k">&gt;=</span> <span class="pl-c1">100</span> <span class="pl-k">and</span> t <span class="pl-k">&lt;</span> <span class="pl-c1">600</span>:</td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> ct.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>):</td>
       </tr>
       <tr>
         <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> web.Response(t, <span class="pl-c1">str</span>(m))</td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">                    params <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> request.json()</td>
       </tr>
       <tr>
         <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"># default:</span></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-c1">isinstance</span>(params, <span class="pl-c1">dict</span>):</td>
       </tr>
       <tr>
         <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line">        resp <span class="pl-k">=</span> web.Response(<span class="pl-smi">body</span><span class="pl-k">=</span><span class="pl-c1">str</span>(r).encode(<span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">                        <span class="pl-k">return</span> web.HTTPBadRequest(<span class="pl-s"><span class="pl-pds">&#39;</span>JSON body must be object.<span class="pl-pds">&#39;</span></span>)</td>
       </tr>
       <tr>
         <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code blob-code-inner js-file-line">        resp.content_type <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>text/plain;charset=utf-8<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">                    kw <span class="pl-k">=</span> params</td>
       </tr>
       <tr>
         <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> resp</td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">elif</span> ct.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>application/x-www-form-urlencoded<span class="pl-pds">&#39;</span></span>) <span class="pl-k">or</span> ct.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>multipart/form-data<span class="pl-pds">&#39;</span></span>):</td>
       </tr>
       <tr>
         <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> response</td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">                    params <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> request.post()</td>
       </tr>
       <tr>
         <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">                    kw <span class="pl-k">=</span> <span class="pl-c1">dict</span>(<span class="pl-k">**</span>params)</td>
       </tr>
       <tr>
         <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">datetime_filter</span>(<span class="pl-smi">t</span>):</td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">else</span>:</td>
       </tr>
       <tr>
         <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line">    delta <span class="pl-k">=</span> <span class="pl-c1">int</span>(time.time() <span class="pl-k">-</span> t)</td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">return</span> web.HTTPBadRequest(<span class="pl-s"><span class="pl-pds">&#39;</span>Unsupported Content-Type: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> request.content_type)</td>
       </tr>
       <tr>
         <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> delta <span class="pl-k">&lt;</span> <span class="pl-c1">60</span>:</td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> request.method <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>GET<span class="pl-pds">&#39;</span></span>:</td>
       </tr>
       <tr>
         <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-s"><span class="pl-k">u</span><span class="pl-pds">&#39;</span>1分钟前<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">                qs <span class="pl-k">=</span> request.query_string</td>
       </tr>
       <tr>
         <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> delta <span class="pl-k">&lt;</span> <span class="pl-c1">3600</span>:</td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> qs:</td>
       </tr>
       <tr>
         <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-s"><span class="pl-k">u</span><span class="pl-pds">&#39;</span><span class="pl-c1">%s</span>分钟前<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (delta <span class="pl-k">//</span> <span class="pl-c1">60</span>)</td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">                    kw <span class="pl-k">=</span> <span class="pl-c1">dict</span>()</td>
       </tr>
       <tr>
         <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> delta <span class="pl-k">&lt;</span> <span class="pl-c1">86400</span>:</td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">for</span> k, v <span class="pl-k">in</span> parse.parse_qs(qs, <span class="pl-c1">True</span>).items():</td>
       </tr>
       <tr>
         <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-s"><span class="pl-k">u</span><span class="pl-pds">&#39;</span><span class="pl-c1">%s</span>小时前<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (delta <span class="pl-k">//</span> <span class="pl-c1">3600</span>)</td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">                        kw[k] <span class="pl-k">=</span> v[<span class="pl-c1">0</span>]</td>
       </tr>
       <tr>
         <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> delta <span class="pl-k">&lt;</span> <span class="pl-c1">604800</span>:</td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> kw <span class="pl-k">is</span> <span class="pl-c1">None</span>:</td>
       </tr>
       <tr>
         <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-s"><span class="pl-k">u</span><span class="pl-pds">&#39;</span><span class="pl-c1">%s</span>天前<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (delta <span class="pl-k">//</span> <span class="pl-c1">86400</span>)</td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">            kw <span class="pl-k">=</span> <span class="pl-c1">dict</span>(<span class="pl-k">**</span>request.match_info)</td>
       </tr>
       <tr>
         <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">    dt <span class="pl-k">=</span> datetime.fromtimestamp(t)</td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">else</span>:</td>
       </tr>
       <tr>
         <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-k">u</span><span class="pl-pds">&#39;</span><span class="pl-c1">%s</span>年<span class="pl-c1">%s</span>月<span class="pl-c1">%s</span>日<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (dt.year, dt.month, dt.day)</td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-v">self</span>._has_var_kw_arg <span class="pl-k">and</span> <span class="pl-v">self</span>._named_kw_args:</td>
       </tr>
       <tr>
         <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">                <span class="pl-c"># remove all unamed kw:</span></td>
       </tr>
       <tr>
         <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-en">@asyncio.coroutine</span></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">                copy <span class="pl-k">=</span> <span class="pl-c1">dict</span>()</td>
       </tr>
       <tr>
         <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
-        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">init</span>(<span class="pl-smi">loop</span>):</td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">for</span> name <span class="pl-k">in</span> <span class="pl-v">self</span>._named_kw_args:</td>
       </tr>
       <tr>
         <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
-        <td id="LC122" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">yield</span> <span class="pl-k">from</span> orm.create_pool(<span class="pl-smi">loop</span><span class="pl-k">=</span>loop, <span class="pl-k">**</span>configs.db)</td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">if</span> name <span class="pl-k">in</span> kw:</td>
       </tr>
       <tr>
         <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code blob-code-inner js-file-line">    app <span class="pl-k">=</span> web.Application(<span class="pl-smi">loop</span><span class="pl-k">=</span>loop, <span class="pl-smi">middlewares</span><span class="pl-k">=</span>[</td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">                        copy[name] <span class="pl-k">=</span> kw[name]</td>
       </tr>
       <tr>
         <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code blob-code-inner js-file-line">        logger_factory, response_factory</td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">                kw <span class="pl-k">=</span> copy</td>
       </tr>
       <tr>
         <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code blob-code-inner js-file-line">    ])</td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">            <span class="pl-c"># check named arg:</span></td>
       </tr>
       <tr>
         <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
-        <td id="LC126" class="blob-code blob-code-inner js-file-line">    init_jinja2(app, <span class="pl-smi">filters</span><span class="pl-k">=</span><span class="pl-c1">dict</span>(<span class="pl-smi">datetime</span><span class="pl-k">=</span>datetime_filter))</td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> k, v <span class="pl-k">in</span> request.match_info.items():</td>
       </tr>
       <tr>
         <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code blob-code-inner js-file-line">    add_routes(app, <span class="pl-s"><span class="pl-pds">&#39;</span>handlers<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> k <span class="pl-k">in</span> kw:</td>
       </tr>
       <tr>
         <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code blob-code-inner js-file-line">    add_static(app)</td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">                    logging.warning(<span class="pl-s"><span class="pl-pds">&#39;</span>Duplicate arg name in named arg and kw args: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> k)</td>
       </tr>
       <tr>
         <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
-        <td id="LC129" class="blob-code blob-code-inner js-file-line">    srv <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> loop.create_server(app.make_handler(), <span class="pl-s"><span class="pl-pds">&#39;</span>127.0.0.1<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">9000</span>)</td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">                kw[k] <span class="pl-k">=</span> v</td>
       </tr>
       <tr>
         <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code blob-code-inner js-file-line">    logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>server started at http://127.0.0.1:9000...<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-v">self</span>._has_request_arg:</td>
       </tr>
       <tr>
         <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> srv</td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">            kw[<span class="pl-s"><span class="pl-pds">&#39;</span>request<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> request</td>
       </tr>
       <tr>
         <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"># check required kw:</span></td>
       </tr>
       <tr>
         <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
-        <td id="LC133" class="blob-code blob-code-inner js-file-line">loop <span class="pl-k">=</span> asyncio.get_event_loop()</td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-v">self</span>._required_kw_args:</td>
       </tr>
       <tr>
         <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
-        <td id="LC134" class="blob-code blob-code-inner js-file-line">loop.run_until_complete(init(loop))</td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> name <span class="pl-k">in</span> <span class="pl-v">self</span>._required_kw_args:</td>
       </tr>
       <tr>
         <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
-        <td id="LC135" class="blob-code blob-code-inner js-file-line">loop.run_forever()</td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> <span class="pl-k">not</span> name <span class="pl-k">in</span> kw:</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">return</span> web.HTTPBadRequest(<span class="pl-s"><span class="pl-pds">&#39;</span>Missing argument: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> name)</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">        logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>call with args: <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> <span class="pl-c1">str</span>(kw))</td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">try</span>:</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">            r <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> <span class="pl-v">self</span>._func(<span class="pl-k">**</span>kw)</td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> r</td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">except</span> APIError <span class="pl-k">as</span> e:</td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-c1">dict</span>(<span class="pl-smi">error</span><span class="pl-k">=</span>e.error, <span class="pl-smi">data</span><span class="pl-k">=</span>e.data, <span class="pl-smi">message</span><span class="pl-k">=</span>e.message)</td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">add_static</span>(<span class="pl-smi">app</span>):</td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">    path <span class="pl-k">=</span> os.path.join(os.path.dirname(os.path.abspath(<span class="pl-c1">__file__</span>)), <span class="pl-s"><span class="pl-pds">&#39;</span>static<span class="pl-pds">&#39;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">    app.router.add_static(<span class="pl-s"><span class="pl-pds">&#39;</span>/static/<span class="pl-pds">&#39;</span></span>, path)</td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">    logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>add static <span class="pl-c1">%s</span> =&gt; <span class="pl-c1">%s</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (<span class="pl-s"><span class="pl-pds">&#39;</span>/static/<span class="pl-pds">&#39;</span></span>, path))</td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">add_route</span>(<span class="pl-smi">app</span>, <span class="pl-smi">fn</span>):</td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">    method <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(fn, <span class="pl-s"><span class="pl-pds">&#39;</span>__method__<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">    path <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(fn, <span class="pl-s"><span class="pl-pds">&#39;</span>__route__<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> path <span class="pl-k">is</span> <span class="pl-c1">None</span> <span class="pl-k">or</span> method <span class="pl-k">is</span> <span class="pl-c1">None</span>:</td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">raise</span> <span class="pl-c1">ValueError</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>@get or @post not defined in <span class="pl-c1">%s</span>.<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> <span class="pl-c1">str</span>(fn))</td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> <span class="pl-k">not</span> asyncio.iscoroutinefunction(fn) <span class="pl-k">and</span> <span class="pl-k">not</span> inspect.isgeneratorfunction(fn):</td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line">        fn <span class="pl-k">=</span> asyncio.coroutine(fn)</td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line">    logging.info(<span class="pl-s"><span class="pl-pds">&#39;</span>add route <span class="pl-c1">%s</span> <span class="pl-c1">%s</span> =&gt; <span class="pl-c1">%s</span>(<span class="pl-c1">%s</span>)<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (method, path, fn.<span class="pl-c1">__name__</span>, <span class="pl-s"><span class="pl-pds">&#39;</span>, <span class="pl-pds">&#39;</span></span>.join(inspect.signature(fn).parameters.keys())))</td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line">    app.router.add_route(method, path, RequestHandler(app, fn))</td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">add_routes</span>(<span class="pl-smi">app</span>, <span class="pl-smi">module_name</span>):</td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line">    n <span class="pl-k">=</span> module_name.rfind(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> n <span class="pl-k">==</span> (<span class="pl-k">-</span><span class="pl-c1">1</span>):</td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line">        mod <span class="pl-k">=</span> <span class="pl-c1">__import__</span>(module_name, <span class="pl-c1">globals</span>(), <span class="pl-c1">locals</span>())</td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">else</span>:</td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line">        name <span class="pl-k">=</span> module_name[n<span class="pl-k">+</span><span class="pl-c1">1</span>:]</td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line">        mod <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(<span class="pl-c1">__import__</span>(module_name[:n], <span class="pl-c1">globals</span>(), <span class="pl-c1">locals</span>(), [name]), name)</td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> attr <span class="pl-k">in</span> <span class="pl-c1">dir</span>(mod):</td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> attr.startswith(<span class="pl-s"><span class="pl-pds">&#39;</span>_<span class="pl-pds">&#39;</span></span>):</td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">continue</span></td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line">        fn <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(mod, attr)</td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> <span class="pl-c1">callable</span>(fn):</td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line">            method <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(fn, <span class="pl-s"><span class="pl-pds">&#39;</span>__method__<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line">            path <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(fn, <span class="pl-s"><span class="pl-pds">&#39;</span>__route__<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">None</span>)</td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> method <span class="pl-k">and</span> path:</td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line">                add_route(app, fn)</td>
       </tr>
 </table>
 
@@ -1408,7 +1566,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.07174s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.07444s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

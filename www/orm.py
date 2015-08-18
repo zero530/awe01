@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>awesome-python3-webapp/orm.py at day-03 · michaelliao/awesome-python3-webapp</title>
+    <title>awesome-python3-webapp/orm.py at day-07 · michaelliao/awesome-python3-webapp</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -24,7 +24,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6NTJjNDRjOWYwYjQ1ZTE2OTc0NjIyMTIxYjVhMTY3NjY6OGRjMzUxMzMzZWE4ZDg2NzAwODI0NTZhM2NiNTEwMjMwNzllNjczZWJkNDBkZjkwNzk2ZTMzMDAwNDBkYzkxYw==--1791e1761114efc854b6822b9de59cd4a18976a5">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6ZTAyNjViMDk0MTIxN2QwNDIyNTdkNTE1M2ZmOGYyNGE6ODI5YmZkY2Q0ZjQwM2YzNzMyZGRlNTY0OWViMmE3YTdlZWEzNDdhYzI0NGNlNDE1ZGQ3MDAwNjFjNGM5M2NjOA==--08f5f4677a4942ea03331cff22c80dadf462e360">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -34,7 +34,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="7792BEE4:1CB7:C9B97BE:55D2C071" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E72315F:3D43:45218D6:55D365AB" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -48,7 +48,7 @@
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
     <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
-<meta content="mGpBKJEwKFK3zkC5lXNPDQv5aMG1UYwE+oLH9nQ3a2N2gu12jd3yLZ15j50ltbBc7nwD8Q+QCPSWwkws4TWqIA==" name="csrf-token" />
+<meta content="tFUYsGqs6wUtNN3HfJebn/MPux0VgbgFyQFrOhyX9o/o64oNkGrc1xJAl5+DcLzbSTiaUS+IIgvuQ42KfrV33Q==" name="csrf-token" />
     
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-ce6f4be3ac86c80d26386e89dab12306e2663d0673dbcecb4cee57b1dc3585cb.css" media="all" rel="stylesheet" />
@@ -57,14 +57,14 @@
     
 
 
-    <meta http-equiv="x-pjax-version" content="beed5a95ea90bbea618a73ca49f749e7">
+    <meta http-equiv="x-pjax-version" content="d737a96d0fde9198bd2f7b9c27790a3a">
 
       
   <meta name="description" content="awesome-python3-webapp - 小白的Python入门教程实战篇：网站+iOS App源码">
   <meta name="go-import" content="github.com/michaelliao/awesome-python3-webapp git https://github.com/michaelliao/awesome-python3-webapp.git">
 
   <meta content="470058" name="octolytics-dimension-user_id" /><meta content="michaelliao" name="octolytics-dimension-user_login" /><meta content="35976854" name="octolytics-dimension-repository_id" /><meta content="michaelliao/awesome-python3-webapp" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="35976854" name="octolytics-dimension-repository_network_root_id" /><meta content="michaelliao/awesome-python3-webapp" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/michaelliao/awesome-python3-webapp/commits/day-03.atom" rel="alternate" title="Recent Commits to awesome-python3-webapp:day-03" type="application/atom+xml">
+  <link href="https://github.com/michaelliao/awesome-python3-webapp/commits/day-07.atom" rel="alternate" title="Recent Commits to awesome-python3-webapp:day-07" type="application/atom+xml">
 
   </head>
 
@@ -198,7 +198,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8B624SGAPtkpt8+SHJoxwglzEeVpA8XUxkYDb8B+K/b+1e7LgwbZ3fmMAkEYGmc49TM0LRekS9vgPnmEbU2umw==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="KTR86Ut9MgqwOAf4dkF9a0YL43MTTl3rTvLOmfniR2asJe6RIqTF9fLH2jhhv4pGmLNB52Wld5n6OnVnBv0H6g==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -230,7 +230,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="urh8mqOnPf6c6+qfloHGpABqftwVqStQxIdYdEkNEd/Dk9QPtmrTsOVG6s3j4JrCoDeMGGSlQJWxE3wWKAPC8Q==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+5nEEQudBHXbOedZ9NXI5LYnIw5o7jEiR5zge/k4H+kLH3mi5bqRC6y9zZdECJuW9QihB4erw/+C4jUxVqmB7w==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/michaelliao/awesome-python3-webapp/subscription"
@@ -305,7 +305,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BYU5LHOB3WB5jgtNeENjY+U/FG1myaicQNXuxM4zZKxswDge4jS3UhXjOB2yvvvxj58HtYNxpbB7AHWbdXy0LQ==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IK+ze1qZH1J8xR2vnp4D74v2OAxNY5dcO+VxhHEnPmP7UG0fGtQrlvk+XoUD1Oq2a9jhvNldKKq3ciwIUZisdw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar michaelliao/awesome-python3-webapp"
@@ -317,7 +317,7 @@
           23
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="NlzntIfnkNiu2iZqpu6/BLKjnlpgF3MAyDiO3SYVdQ7CmYqn3eMuAQwD/bMUtXgaHfJ7KWE1wxDhluW/FEkL5Q==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9m3yGjyM/4FdV0H6h8/QvpuyPfVwNnTtkr2CQrN/6aKR9zZoKM7Jy57TLRfukGLfm562sNY2Jj+Hdukew3UVdw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star michaelliao/awesome-python3-webapp"
@@ -333,7 +333,7 @@
   </li>
 
         <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1B6YNJY5S58RaJ0/3Zrl6rPVJnRdeio9raOzAqGRwhhULW76pfVpRDQxe8L6Uwgc4GYI64uya4ENfXMJdVgOGg==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Xe1vET3pziFsMhAMnKVEEhgGddHYX8ny59W3yeycOt/asjq9AxwSxV60k5qd9oUy/Bhgroq/CYTqeeZPIEZ3pA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -375,7 +375,7 @@
      data-issue-count-url="/michaelliao/awesome-python3-webapp/issues/counts">
   <ul class="sunken-menu-group">
     <li class="tooltipped tooltipped-w" aria-label="Code">
-      <a href="/michaelliao/awesome-python3-webapp/tree/day-03" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /michaelliao/awesome-python3-webapp/tree/day-03">
+      <a href="/michaelliao/awesome-python3-webapp/tree/day-07" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /michaelliao/awesome-python3-webapp/tree/day-07">
         <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
         <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>    </li>
@@ -462,7 +462,7 @@
 
 
   <div class="clone-options">You can clone with
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IsZ48yQ7xS6ciuoqOmIDGEogf4jttYLcR26WKHhZnNeSAeJkZnR/Gu1TL/iCOEO910/BjX/9WFt1htwomBKGhw==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vlnRPdhAJdgWJhHWA90JvxSMKU8vIbbJo368mx6FiTO0YYXgwwlYqB29JtD8//+xy6EWFes/umcoftw2GKsxKg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="o/duZSd92RHJAclB0ez9JYxvgTJeL6EhUDGmatDIfA8ES069i2Gl2KFC2u/lnymYgNWXJspu4LhIitHt28+zIw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QgCgMzQ+Mfyn3yEVGiP1RM42+dmUQdVW8n9sUuQ11WrWkQkaOyhQcI4TWPzfL/9UC92eziiwAuRAhiZnp+3RQw==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+YXhXTXwcsKUnKG0CGydexbk45yt2odLT7q+YWuf6YgV4BTqUP88FDdI3Y/Bc3fqLFb6QBPr4MdmLizXpm/1Zg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="KDcY4pUa4V4fBmd+pYfc7PlwgIGjHPvbbjLAU+J3h/FqJQm4STX06zVymWFpsDLYca3Ok8RlFa0chRD4tQzCEA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
     <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
       <span class="octicon octicon-question"></span>
     </a>
@@ -472,7 +472,7 @@
       Clone in Desktop
     </a>
 
-                  <a href="/michaelliao/awesome-python3-webapp/archive/day-03.zip"
+                  <a href="/michaelliao/awesome-python3-webapp/archive/day-07.zip"
                      class="btn btn-sm sidebar-button"
                      aria-label="Download the contents of michaelliao/awesome-python3-webapp as a zip file"
                      title="Download the contents of michaelliao/awesome-python3-webapp as a zip file"
@@ -486,7 +486,7 @@
 
             
 
-<a href="/michaelliao/awesome-python3-webapp/blob/b0f4bda2f9c676598425939119cb95f0e01c4542/www/orm.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/michaelliao/awesome-python3-webapp/blob/e6a66c155056aaf952d4d20ca3e1003dfdc4b875/www/orm.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
 <!-- blob contrib key: blob_contributors:v21:64ab7d632b8a1f5a2c8fe11d7712e068 -->
 
@@ -494,11 +494,11 @@
     
 <div class="select-menu js-menu-container js-select-menu left">
   <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    data-ref="day-03"
-    title="day-03"
+    data-ref="day-07"
+    title="day-07"
     role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
     <i>Branch:</i>
-    <span class="js-select-button css-truncate-target">day-03</span>
+    <span class="js-select-button css-truncate-target">day-07</span>
   </span>
 
   <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
@@ -550,7 +550,7 @@
                 day-02
               </span>
             </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+            <a class="select-menu-item js-navigation-item js-navigation-open "
                href="/michaelliao/awesome-python3-webapp/blob/day-03/www/orm.py"
                data-name="day-03"
                data-skip-pjax="true"
@@ -590,7 +590,7 @@
                 day-06
               </span>
             </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open "
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
                href="/michaelliao/awesome-python3-webapp/blob/day-07/www/orm.py"
                data-name="day-07"
                data-skip-pjax="true"
@@ -729,7 +729,7 @@
 </div>
 
     <div class="btn-group right">
-      <a href="/michaelliao/awesome-python3-webapp/find/day-03"
+      <a href="/michaelliao/awesome-python3-webapp/find/day-07"
             class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
             data-pjax
             data-hotkey="t"
@@ -740,7 +740,7 @@
     </div>
 
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-03" class="" data-branch="day-03" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-03/www" class="" data-branch="day-03" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">orm.py</strong>
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07/www" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">orm.py</strong>
     </div>
   </div>
 
@@ -780,9 +780,9 @@
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/michaelliao/awesome-python3-webapp/raw/day-03/www/orm.py" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/michaelliao/awesome-python3-webapp/blame/day-03/www/orm.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/michaelliao/awesome-python3-webapp/commits/day-03/www/orm.py" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/michaelliao/awesome-python3-webapp/raw/day-07/www/orm.py" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/michaelliao/awesome-python3-webapp/blame/day-07/www/orm.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/michaelliao/awesome-python3-webapp/commits/day-07/www/orm.py" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
@@ -792,12 +792,12 @@
             <span class="octicon octicon-desktop-download"></span>
         </a>
 
-            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-03/www/orm.py" class="inline-form" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Uc0Uy0U9oEHXn/jyfrjYExoq55uA4SqEx4U6Ltxu/FxECDLvEPM8Jpj/zyJ7sXTEK2AtJ0pj9sgqp96CvmylIg==" /></div>
+            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-07/www/orm.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="caEcC8+ZTie2XxUMQRzzt5u2nrB1Ep4lieoJ5Bkktwm7LbQG+OGr+zSf0WBhG3c/n+mVdPOCNnToiqvozfL4NQ==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-03/www/orm.py" class="inline-form" data-form-nonce="634bfe9831a4de37882604ebf4ff5b25743061b4" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XOFJL7AWAaJxVIIqhbQjes9Dd4agkQIslWQpPemECT33sVo/wB9COnLmBulrG3XiLp6zQO7UfsHOrAJUDSTtBQ==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-07/www/orm.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+kbQjPAZG6CXgYmzbFH3JBkJWEVm/vaEWgZCe5RvZwdHFxQTlANa6+V8vobBdllt05VVScjt4Is5dgjEpm6ieg==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
@@ -1847,7 +1847,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.09708s from github-fe126-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.06994s from github-fe129-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1890,7 +1890,7 @@
 
 
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-b8bb6ec61f9699575b20bf19ef0781a267528db51d66151c51d5ec2717341fd8.js"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-a6798ce468f53be48519b55832e43095d311fb18e115cbd322506cb6ee91d0a9.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-dcf222e83264dd93dcd4a27e0629febc4727a10bc5a6740dc7da9d429dc473ec.js"></script>
       
       
     <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">

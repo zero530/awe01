@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>awesome-python3-webapp/config_default.py at day-07 · michaelliao/awesome-python3-webapp</title>
+    <title>awesome-python3-webapp/handlers.py at day-07 · michaelliao/awesome-python3-webapp</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -24,7 +24,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6ZTAyNjViMDk0MTIxN2QwNDIyNTdkNTE1M2ZmOGYyNGE6YWQ1NTEwMmM1ZDA4NTEzZTNlNWI1YzZlM2U4MzM5ODU1MjlmOGNlMjUyZjIxMzYyOWQxOTQ4ZWUyNWM1YTU4NQ==--ee737d7ab3a8558f57106e992c4bf7320c0c1108">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTM4MjYxNjc6ZTAyNjViMDk0MTIxN2QwNDIyNTdkNTE1M2ZmOGYyNGE6NTYwMzUyZGUwY2EzYWYxOWMzMWQ0NWZmYzkxY2JhZTg1OTJlNjJiNjI3N2ZiZGNiMWQxZmNlMGNiM2U4NDAyZQ==--a9c0395cfc16c9b9dc7319aafb8ba0f48e92a676">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -34,7 +34,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E72315F:3D43:45202CA:55D36596" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0E72315F:3D43:45207BC:55D3659C" name="octolytics-dimension-request_id" /><meta content="13826167" name="octolytics-actor-id" /><meta content="zero530" name="octolytics-actor-login" /><meta content="9edc2f394f00f083764e2c6ea0c7a359408849ee116130b6dd109c30f6a4ea1d" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -48,7 +48,7 @@
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
     <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
-<meta content="eGeCsrwPQMSS/5ZXHsO81UfustHJYsh82R32DGgb04+lNG8yR7I4KeDq7NwzGv/LznIH0Nt1IL1zQ25aUwMOCQ==" name="csrf-token" />
+<meta content="0BPD/Mpitw6e6a7/b6rneSdIIY3O1oLxbaRLDzu9GYsD60L6JtZofU6HBT4DTLzqULGTmQhQgQ5MXmHH2+W/cA==" name="csrf-token" />
     
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-ce6f4be3ac86c80d26386e89dab12306e2663d0673dbcecb4cee57b1dc3585cb.css" media="all" rel="stylesheet" />
@@ -198,7 +198,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lp7VxmznTnwFE9gwwbyuLMVtHN5gurhR6nU+R8+N+NDbw0LgWMP3GuFH//l9v1A+iXOdlUUrj+3iwKzZVBSf8A==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fL6eaEESQlPdwtxMgchC6/j9kNgLFPsNoza/gF0Se25EuxVvGnL9P9FrgFRw1y+0BCVC0vgN30tzkI701zn8wg==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -230,7 +230,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="EQtiTt7Zs9PGG1Zu7R0LYwft+ySVG25KEUadElZ40501gKbS1hQbx/kokGGS9JdSt4MqZLUbsA1qySQznRkJ3w==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="w1H4qQvTQ2Ic4bYNONzVh5kzQcZAXJQGeBdXWtun5VM4V9RhLGNoKNEtUuywcl9OuLvdhNOaE06va/7EzMbv0g==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="35976854" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/michaelliao/awesome-python3-webapp/subscription"
@@ -305,7 +305,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c/atDP/gZnlEHQAUsmpcH38i9x6Phr2XcOhpC/Xd7gEEkXHPH0xwnn/LcJBHXJm9s44Noacc/7vyh2Lb/5YKRg==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Wh1mdUeI+/D6b3jZzjIzUB9lVRhhFb405uDxuzn2EEO9BQH+Rqdkg64pWdQYlzLNX8wS486HKqIUBKyH44IDIw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar michaelliao/awesome-python3-webapp"
@@ -317,7 +317,7 @@
           23
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BRRSBPz5UVukjSk88/tgzP+0/OTaOO4iD8tGh0Ron3cp2FisA2y9DoDRXBbugjGSoYGUkhjO6n57yrQOwa9rNQ==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c2eocEw0HUHOUkG/Z3SIVNEM+to4MG0ThPmxdi9RPlUoCvyxoVueDWRCSqttZTzPMnU5bAA8oI+NaDrYrYs8Aw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star michaelliao/awesome-python3-webapp"
@@ -333,7 +333,7 @@
   </li>
 
         <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Zyp8MkYPIu9wnj4SswppFI4b575w8UMgwMDmRiXTPBXLl8wrrQ/NEQenHLdvDIbL3AJ+XjTixeKJMr1HrJfHJw==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/fork" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RyKA//+HZASNUOZVXo7j7BCF9NASG1xYdQDuA1GAsco6TzgJS8FGLa8NJSipSIovO26L0lXHP8NAfsWqRutyIQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -462,7 +462,7 @@
 
 
   <div class="clone-options">You can clone with
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lwAgeAcJAHjT0G9ZVD8/+OYMMwTFY5GrvKHEhDvAovHsFyrKoyeaY1BolUW1Dyw6od/iF8qW9jOkvTNru6DZCA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Xmikw0gK80QWbLvkvk6WABB3+zwzX1TH35cMHDXQ16533zhfXZChu4orfljsrC/LraIqrbSUpe14QG96BsSOQA==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kaeFt93ueYrjxiUrUCQuY992N/Z4td+kk7X3D8DlI0xIuzUUob5ZFeX/IGsCHHbIOEokIoC6lA+qIL/amIGd+g==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YG86Iv2tenF4TzQ30gLJHBk7asU1XUCEfzDK5qH79Rn5bpTZF9xNsjzUl8x0eNrf1ze+ITJywTxy0uRIkW4fdw==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4YVlIx+Vz1C4XC5S0gCzlrirBUG+l6D9cMTxrbgL123xLOgIvkx+9WLuEb64cwUf0uWHz98Kkn44OxYfmZ3wWg==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ape8TsQVLPWW/ebCofnaSOWBtDsGvXLplfwWAr8fNtwIWSCzzUCdToN9uqxNyw64M8E6dDtdUs5OyQ32cLblaA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
     <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
       <span class="octicon octicon-question"></span>
     </a>
@@ -486,9 +486,9 @@
 
             
 
-<a href="/michaelliao/awesome-python3-webapp/blob/e6a66c155056aaf952d4d20ca3e1003dfdc4b875/www/config_default.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/michaelliao/awesome-python3-webapp/blob/e6a66c155056aaf952d4d20ca3e1003dfdc4b875/www/handlers.py" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:7f81d65a78132427d34903e4a809e5e0 -->
+<!-- blob contrib key: blob_contributors:v21:dacf156f2ddd1e51af29ecd7d572803c -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -531,7 +531,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-01/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-01/www/handlers.py"
                data-name="day-01"
                data-skip-pjax="true"
                rel="nofollow">
@@ -541,7 +541,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-02/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-02/www/handlers.py"
                data-name="day-02"
                data-skip-pjax="true"
                rel="nofollow">
@@ -551,7 +551,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-03/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-03/www/handlers.py"
                data-name="day-03"
                data-skip-pjax="true"
                rel="nofollow">
@@ -561,7 +561,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-04/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-04/www/handlers.py"
                data-name="day-04"
                data-skip-pjax="true"
                rel="nofollow">
@@ -571,7 +571,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-05/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-05/www/handlers.py"
                data-name="day-05"
                data-skip-pjax="true"
                rel="nofollow">
@@ -581,7 +581,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-06/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-06/www/handlers.py"
                data-name="day-06"
                data-skip-pjax="true"
                rel="nofollow">
@@ -591,7 +591,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/michaelliao/awesome-python3-webapp/blob/day-07/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-07/www/handlers.py"
                data-name="day-07"
                data-skip-pjax="true"
                rel="nofollow">
@@ -601,7 +601,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-08/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-08/www/handlers.py"
                data-name="day-08"
                data-skip-pjax="true"
                rel="nofollow">
@@ -611,7 +611,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-09/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-09/www/handlers.py"
                data-name="day-09"
                data-skip-pjax="true"
                rel="nofollow">
@@ -621,7 +621,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-10/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-10/www/handlers.py"
                data-name="day-10"
                data-skip-pjax="true"
                rel="nofollow">
@@ -631,7 +631,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-11/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-11/www/handlers.py"
                data-name="day-11"
                data-skip-pjax="true"
                rel="nofollow">
@@ -641,7 +641,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-12/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-12/www/handlers.py"
                data-name="day-12"
                data-skip-pjax="true"
                rel="nofollow">
@@ -651,7 +651,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-13/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-13/www/handlers.py"
                data-name="day-13"
                data-skip-pjax="true"
                rel="nofollow">
@@ -661,7 +661,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-14/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-14/www/handlers.py"
                data-name="day-14"
                data-skip-pjax="true"
                rel="nofollow">
@@ -671,7 +671,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-15/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-15/www/handlers.py"
                data-name="day-15"
                data-skip-pjax="true"
                rel="nofollow">
@@ -681,7 +681,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/day-16/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/day-16/www/handlers.py"
                data-name="day-16"
                data-skip-pjax="true"
                rel="nofollow">
@@ -691,7 +691,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/dev/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/dev/www/handlers.py"
                data-name="dev"
                data-skip-pjax="true"
                rel="nofollow">
@@ -701,7 +701,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/michaelliao/awesome-python3-webapp/blob/master/www/config_default.py"
+               href="/michaelliao/awesome-python3-webapp/blob/master/www/handlers.py"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -740,7 +740,7 @@
     </div>
 
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07/www" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">config_default.py</strong>
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">awesome-python3-webapp</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/michaelliao/awesome-python3-webapp/tree/day-07/www" class="" data-branch="day-07" data-pjax="true" itemscope="url"><span itemprop="title">www</span></a></span><span class="separator">/</span><strong class="final-path">handlers.py</strong>
     </div>
   </div>
 
@@ -749,9 +749,9 @@
     <div class="file-history-tease-header">
         <img alt="@michaelliao" class="avatar" height="24" src="https://avatars3.githubusercontent.com/u/470058?v=3&amp;s=48" width="24" />
         <span class="author"><a href="/michaelliao" rel="author">michaelliao</a></span>
-        <time datetime="2015-05-20T22:42:12Z" is="relative-time">May 21, 2015</time>
+        <time datetime="2015-05-26T14:24:13Z" is="relative-time">May 26, 2015</time>
         <div class="commit-title">
-            <a href="/michaelliao/awesome-python3-webapp/commit/61ae41e583655b01c4ae549a2457121b6c0f1b21" class="message" data-pjax="true" title="add initial resource">add initial resource</a>
+            <a href="/michaelliao/awesome-python3-webapp/commit/019d5a11a12ceed55ec6c1a9e671076d990c5634" class="message" data-pjax="true" title="add mvc">add mvc</a>
         </div>
     </div>
 
@@ -780,9 +780,9 @@
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/michaelliao/awesome-python3-webapp/raw/day-07/www/config_default.py" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/michaelliao/awesome-python3-webapp/blame/day-07/www/config_default.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/michaelliao/awesome-python3-webapp/commits/day-07/www/config_default.py" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/michaelliao/awesome-python3-webapp/raw/day-07/www/handlers.py" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/michaelliao/awesome-python3-webapp/blame/day-07/www/handlers.py" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/michaelliao/awesome-python3-webapp/commits/day-07/www/handlers.py" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
@@ -792,21 +792,21 @@
             <span class="octicon octicon-desktop-download"></span>
         </a>
 
-            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-07/www/config_default.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nQzD38tEQzXU84dVBlzuhJCY8pG18+WLuyHzeuin1myc3gNmbsA1kuCSN/0OkXAQ2le+DgHk1rMGY+jdr6K5+Q==" /></div>
+            <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/edit/day-07/www/handlers.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Sdgrkg1uac+p5RXk/DpJeRnVdh/NngLeMx8UKE8y1IATGn4WD11ezOdTIhE9YCyMSy3sF259qkFKjXjSAPzLmg==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-07/www/config_default.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ouLKP0Xc1r81wxZfiEgYpuZYUXkjfXnDnwS8yTohi2MofnpPYKFuHjYJtFENbk1wHIvxXRa1arzh0USYR+0MnA==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/michaelliao/awesome-python3-webapp/delete/day-07/www/handlers.py" class="inline-form" data-form-nonce="637dad12455337e50c956bb114701e2b8064185f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sqGOp3lprNS5LNa8Us01+nbqLkaxLTql6ogyC/G/UoxkZTrNa3IiWRxVfM2eBbu/H8YSMLqjvDQVtjMH2UwxRQ==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-        23 lines (19 sloc)
+        21 lines (14 sloc)
         <span class="file-info-divider"></span>
-      0.338 kB
+      0.38 kB
     </div>
   </div>
   
@@ -828,15 +828,16 @@
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">__author__ <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Michael Liao<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-s">Default configurations.</span></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;</span> url handlers <span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
@@ -845,7 +846,7 @@
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">__author__ <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Michael Liao<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> re, time, json, logging, hashlib, base64, asyncio</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
@@ -854,55 +855,49 @@
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">configs <span class="pl-k">=</span> {</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> coroweb <span class="pl-k">import</span> get, post</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;</span>debug<span class="pl-pds">&#39;</span></span>: <span class="pl-c1">True</span>,</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;</span>db<span class="pl-pds">&#39;</span></span>: {</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> models <span class="pl-k">import</span> User, Comment, Blog, next_id</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>host<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>127.0.0.1<span class="pl-pds">&#39;</span></span>,</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>port<span class="pl-pds">&#39;</span></span>: <span class="pl-c1">3306</span>,</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-en">@</span><span class="pl-en">get</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>/<span class="pl-pds">&#39;</span></span>)</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>user<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>www<span class="pl-pds">&#39;</span></span>,</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">index</span>(<span class="pl-smi">request</span>):</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>password<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>www<span class="pl-pds">&#39;</span></span>,</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    users <span class="pl-k">=</span> <span class="pl-k">yield</span> <span class="pl-k">from</span> User.findAll()</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>db<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>awesome<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> {</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">    },</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>__template__<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>test.html<span class="pl-pds">&#39;</span></span>,</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;</span>session<span class="pl-pds">&#39;</span></span>: {</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>users<span class="pl-pds">&#39;</span></span>: users</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>secret<span class="pl-pds">&#39;</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>Awesome<span class="pl-pds">&#39;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">    }</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
 </table>
 
@@ -943,7 +938,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.09397s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.08119s from github-fe126-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
