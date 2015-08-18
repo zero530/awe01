@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE "G:/Project/py/awe01/awe01/database/user.csv" INTO TABLE users;
