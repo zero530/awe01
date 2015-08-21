@@ -93,6 +93,11 @@ class IntegerField(Field):
     def __init__(self, name=None, primary_key=False, default=0):
         super().__init__(name, 'bigint', primary_key, default)
 
+class TinyIntegerField(Field):
+
+    def __init__(self, name=None, primary_key=False, default=0):
+        super().__init__(name, 'TINYINT', primary_key, default)
+
 class FloatField(Field):
 
     def __init__(self, name=None, primary_key=False, default=0.0):
